@@ -6,7 +6,7 @@ namespace FizzBuzzLab1a
     {
         static void Main(string[] args)
         {
-            foreach (var item in FizzBuzz.CalculateFizzBuzzSequence(100))
+            foreach (var item in FizzBuzz.CalculateFizzBuzzSequence(0))
             {
                 Console.WriteLine(item);
             }

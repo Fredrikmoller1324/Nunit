@@ -10,7 +10,7 @@ namespace FizzBuzzTest
     public class FizzBuzzTest
     {
         [Test]
-        public void CalculateFizzBuzzSequence_InputIs100Numbers_Returns16FirstCases()
+        public void CalculateFizzBuzzSequence_InputIsHundredNumbers_Returns16FirstCases()
         {
             List<string> listToCheck = new List<string>() { "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz","16" };
 
@@ -21,7 +21,7 @@ namespace FizzBuzzTest
         [TestCase(101)]
         [TestCase(201)]
         [TestCase(301)]
-        public void CalculateFizzBuzzSequence_InputIsBiggerThan100_ThrowsArgumentOutOfRangeException(int sequenceLength)
+        public void CalculateFizzBuzzSequence_InputIsBiggerThanHundred_ThrowsArgumentOutOfRangeException(int sequenceLength)
         {
             Assert.Throws<ArgumentOutOfRangeException>(() => FizzBuzz.CalculateFizzBuzzSequence(sequenceLength));
         }
@@ -30,9 +30,16 @@ namespace FizzBuzzTest
         [TestCase(-1)]
         [TestCase(-10)]
         [TestCase(-100)]
-        public void CalculateFizzBuzzSequence_InputIsLessThan0_ThrowsArgumentOutOfRangeException(int sequenceLength)
+        public void CalculateFizzBuzzSequence_InputIsLessThanZero_ThrowsArgumentOutOfRangeException(int sequenceLength)
         {
             Assert.Throws<NegativeNumberNotAllowedException>(() => FizzBuzz.CalculateFizzBuzzSequence(sequenceLength));
+        }
+
+        [Test]
+        
+        public void CalculateFizzBuzzSequence_InputIsZero_ZeroNotAllowedException()
+        {
+            Assert.Throws<ZeroNotAllowedException>(() => FizzBuzz.CalculateFizzBuzzSequence(0));
         }
 
         [Test]

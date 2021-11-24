@@ -14,7 +14,9 @@ namespace FizzBuzzLab1a
         /// <returns> The FizzBuzz sequence </returns>
         public static List<string> CalculateFizzBuzzSequence(this int sequenceLength)
         {
-            if (sequenceLength < 0) throw new NegativeNumberNotAllowedException("Negative number is not allowed");
+            if (sequenceLength == 0) throw new ZeroNotAllowedException($"{sequenceLength} is not a valid input");
+
+            if (sequenceLength < 0) throw new NegativeNumberNotAllowedException("Negative numbers is not allowed");
 
             if (sequenceLength > 100) throw new ArgumentOutOfRangeException("Length of fizzbuzz sequence can not be longer than 100 numbers");
 
