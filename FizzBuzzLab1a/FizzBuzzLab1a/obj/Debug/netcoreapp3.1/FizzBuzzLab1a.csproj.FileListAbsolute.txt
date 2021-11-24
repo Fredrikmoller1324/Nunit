@@ -1,0 +1,14 @@
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\bin\Debug\netcoreapp3.1\FizzBuzzLab1a.exe
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\bin\Debug\netcoreapp3.1\FizzBuzzLab1a.deps.json
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\bin\Debug\netcoreapp3.1\FizzBuzzLab1a.runtimeconfig.json
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\bin\Debug\netcoreapp3.1\FizzBuzzLab1a.runtimeconfig.dev.json
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\bin\Debug\netcoreapp3.1\FizzBuzzLab1a.dll
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\bin\Debug\netcoreapp3.1\FizzBuzzLab1a.pdb
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\obj\Debug\netcoreapp3.1\FizzBuzzLab1a.csproj.AssemblyReference.cache
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\obj\Debug\netcoreapp3.1\FizzBuzzLab1a.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\obj\Debug\netcoreapp3.1\FizzBuzzLab1a.AssemblyInfoInputs.cache
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\obj\Debug\netcoreapp3.1\FizzBuzzLab1a.AssemblyInfo.cs
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\obj\Debug\netcoreapp3.1\FizzBuzzLab1a.csproj.CoreCompileInputs.cache
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\obj\Debug\netcoreapp3.1\FizzBuzzLab1a.dll
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\obj\Debug\netcoreapp3.1\FizzBuzzLab1a.pdb
+C:\Users\fredr\source\repos\FizzBuzzLab1a\FizzBuzzLab1a\obj\Debug\netcoreapp3.1\FizzBuzzLab1a.genruntimeconfig.cache
