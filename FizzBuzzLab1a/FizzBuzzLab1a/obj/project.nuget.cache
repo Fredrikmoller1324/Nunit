@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4HUWm16Tn80g+XnehilET7Y+eyTD8Li3eV8FQ8CAH0rnIyTiprfc+B/aR9vkJZWnJw4/Fj+YfmM+6vtCGjY6Sg==",
+  "dgSpecHash": "NOz8r1w3ByQ196SL49acHLTn3jglUEcoI2Wid7+m3KaUgkeSR2KDoACdCOuqSZ1C23xrhX09GMLLgH3ZlDPjLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj",
+  "projectFilePath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

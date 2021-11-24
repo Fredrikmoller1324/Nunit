@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzTest\\FizzBuzzTest.csproj": {}
+    "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzTest\\FizzBuzzTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj": {
+    "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj",
+        "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj",
         "projectName": "FizzBuzzLab1a",
-        "projectPath": "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj",
+        "projectPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj",
         "packagesPath": "C:\\Users\\fredr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzLab1a\\obj\\",
+        "outputPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzLab1a\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fredr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,18 +54,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzTest\\FizzBuzzTest.csproj": {
+    "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzTest\\FizzBuzzTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzTest\\FizzBuzzTest.csproj",
+        "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzTest\\FizzBuzzTest.csproj",
         "projectName": "FizzBuzzTest",
-        "projectPath": "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzTest\\FizzBuzzTest.csproj",
+        "projectPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzTest\\FizzBuzzTest.csproj",
         "packagesPath": "C:\\Users\\fredr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzTest\\obj\\",
+        "outputPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fredr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj": {
-                "projectPath": "C:\\Users\\fredr\\source\\repos\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj"
+              "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj": {
+                "projectPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\FizzBuzzLab1a\\FizzBuzzLab1a\\FizzBuzzLab1a.csproj"
               }
             }
           }
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
