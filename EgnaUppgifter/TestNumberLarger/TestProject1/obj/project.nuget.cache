@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "+CvjEWb3+DuMbBA3ti5vs044SQfH3S/WZ7E4zNPxz07SEBFW6ctvjTGemInjUtqc5lSGpAPTWCvEwUKn54Cu4Q==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\fredr\\source\\repos\\TestNumberLarger\\TestProject1\\TestProject1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TestNumberLarger is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project TestNumberLarger supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "TestNumberLarger",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

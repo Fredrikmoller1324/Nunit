@@ -1,0 +1,16 @@
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\TestNumberLarger.csproj.AssemblyReference.cache
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\TestNumberLarger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\TestNumberLarger.AssemblyInfoInputs.cache
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\TestNumberLarger.AssemblyInfo.cs
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\TestNumberLarger.csproj.CoreCompileInputs.cache
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\bin\Debug\net5.0\TestNumberLarger.exe
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\bin\Debug\net5.0\TestNumberLarger.deps.json
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\bin\Debug\net5.0\TestNumberLarger.runtimeconfig.json
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\bin\Debug\net5.0\TestNumberLarger.runtimeconfig.dev.json
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\bin\Debug\net5.0\TestNumberLarger.dll
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\bin\Debug\net5.0\ref\TestNumberLarger.dll
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\bin\Debug\net5.0\TestNumberLarger.pdb
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\TestNumberLarger.dll
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\ref\TestNumberLarger.dll
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\TestNumberLarger.pdb
+C:\Users\fredr\source\repos\TestNumberLarger\TestNumberLarger\obj\Debug\net5.0\TestNumberLarger.genruntimeconfig.cache
