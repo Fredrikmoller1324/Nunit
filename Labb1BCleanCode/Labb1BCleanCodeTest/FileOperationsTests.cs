@@ -21,7 +21,7 @@ namespace Labb1BCleanCodeTest
             string path = textReaderObj.GetFilePath("empty_mock_data.txt");
 
             //Act
-            ArgumentException ex = Assert.Throws<ArgumentException>(() => textReaderObj.ReadFromFile(path));
+            ArgumentException ex = Assert.Throws<ArgumentException>(() => textReaderObj.ReadFromTxtFile(path));
 
             //Assert
             Assert.AreEqual("File is Null or Empty", ex.Message);
@@ -52,7 +52,7 @@ namespace Labb1BCleanCodeTest
             string filepath = textReaderObj.GetFilePath("indata.txt");
             
             //Act
-            string textToTest = textReaderObj.ReadFromFile(filepath);
+            string textToTest = textReaderObj.ReadFromTxtFile(filepath);
 
             bool result = !textToTest.Contains(Environment.NewLine);
 

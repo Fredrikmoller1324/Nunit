@@ -9,9 +9,8 @@ namespace Labb1BCleanCode
             FileOperations textReader = new FileOperations();
 
             string filepath = textReader.GetFilePath("indata.txt");
-        
 
-            var textFromfile = textReader.ReadFromFile(filepath);
+            var textFromfile = textReader.ReadFromTxtFile(filepath);
 
             Console.WriteLine(textFromfile);
 
