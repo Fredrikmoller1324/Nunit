@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj",
+      "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj",
       "projectName": "Labb1BCleanCode",
-      "projectPath": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj",
+      "projectPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj",
       "packagesPath": "C:\\Users\\fredr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\obj\\",
+      "outputPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fredr\\AppData\\Roaming\\NuGet\\NuGet.Config",

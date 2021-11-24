@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj": {}
+    "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj": {
+    "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj",
+        "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj",
         "projectName": "Labb1BCleanCodeTest",
-        "projectPath": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj",
+        "projectPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj",
         "packagesPath": "C:\\Users\\fredr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCodeTest\\obj\\",
+        "outputPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCodeTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fredr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj": {
-                "projectPath": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj"
+              "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj": {
+                "projectPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj": {
+    "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj",
+        "projectUniqueName": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj",
         "projectName": "Labb1BCleanCode",
-        "projectPath": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj",
+        "projectPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\Labb1BCleanCode.csproj",
         "packagesPath": "C:\\Users\\fredr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCode\\obj\\",
+        "outputPath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fredr\\AppData\\Roaming\\NuGet\\NuGet.Config",

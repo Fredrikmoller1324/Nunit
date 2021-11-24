@@ -6,17 +6,18 @@ namespace Labb1BCleanCode
     {
         static void Main(string[] args)
         {
-            StringOperations textReader = new StringOperations();
+            FileOperations textReader = new FileOperations();
 
-            string filepath = textReader.GetFilePath();
+            string filepath = textReader.GetFilePath("indata.txt");
+        
 
-            var textFromfile = textReader.ReadFromTxtFile(filepath);
+            var textFromfile = textReader.ReadFromFile(filepath);
 
             Console.WriteLine(textFromfile);
 
             Console.WriteLine("----------");
 
-            Console.WriteLine(textReader.ReverseString(textFromfile));
+            Console.WriteLine(textFromfile.ReverseString());
         }
     }
 }

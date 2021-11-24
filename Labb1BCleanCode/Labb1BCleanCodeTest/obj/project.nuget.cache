@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WCOpevN7ZB5lDRiUJ8oZmvRii4v9IMM+KkrpImYAgfHwxv6yQS4eUe6ZjfMEpiQBziMk6QiBI12a5bvyICamMw==",
+  "dgSpecHash": "UBgpmPvJLRLsLsAGE9trFLsrMXiHOrnNpUMyh3Xm/vWSWLlRWLBlI3QmiG0lbbMBBArC+z8Lq8tlX/7Ml1TF3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fredr\\source\\repos\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj",
+  "projectFilePath": "C:\\Users\\fredr\\source\\repos\\CleanCode\\Labb1BCleanCode\\Labb1BCleanCodeTest\\Labb1BCleanCodeTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fredr\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\fredr\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
