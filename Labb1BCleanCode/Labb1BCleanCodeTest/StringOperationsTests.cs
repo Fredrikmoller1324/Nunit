@@ -1,4 +1,5 @@
 ﻿using Labb1BCleanCode;
+using Moq;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,14 @@ namespace Labb1BCleanCodeTest
 {
     class StringOperationsTests
     {
+        private Mock<IFileOperations> _mock;
+        
+        [SetUp]
+        public void SetUp()
+        {
+            _mock = new Mock<IFileOperations>();
+        }
+
         [Test]
         [TestCase("Apa", "apA")]
         [TestCase("Hello", "olleH")]
@@ -19,11 +28,10 @@ namespace Labb1BCleanCodeTest
         public void ReverseString_InputStringToReverse_ReturnsInputStringInReverse(string stringToReverse, string expected)
         {
             // Arrange Act
-            
-            string textToTest = stringToReverse.ReverseString();
+            _mock.Setup(x=>x.Read()).Returns(stringToReverse);
 
             //Assert
-            Assert.That(textToTest, Is.EqualTo(expected));
+            Assert.That(new StringOperations().ReverseString(_mock.Object), Is.EqualTo(expected));
         }
     }
 }

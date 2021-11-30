@@ -8,8 +8,8 @@ namespace Labb1BCleanCode
 {
     public interface IFileOperations
     {
-        public string Read(string filepath);
+        public string Read();
 
-        public string GetFilepath(string filename);
+        public void GetFilepath(string filename);
     }
 }

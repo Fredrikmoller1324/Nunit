@@ -7,16 +7,16 @@ namespace Labb1BCleanCode
         static void Main(string[] args)
         {
             TextFileOperations textReader = new TextFileOperations();
+            
+            textReader.GetFilepath("indata.txt");
 
-            string filepath = textReader.GetFilepath("empty_mock_data.txt");
-
-            var textFromfile = textReader.Read(filepath);
+            var textFromfile = textReader.Read();
 
             Console.WriteLine(textFromfile);
 
             Console.WriteLine("----------");
 
-            Console.WriteLine(textFromfile.ReverseString());
+            Console.WriteLine(new StringOperations().ReverseString(textReader));
         }
     }
 }

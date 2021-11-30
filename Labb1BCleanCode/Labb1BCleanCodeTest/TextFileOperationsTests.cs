@@ -13,21 +13,25 @@ namespace Labb1BCleanCodeTest
     [TestFixture]
     class TextFileOperationsTests
     {
-        IFileOperations _fileOperations;
+        private TextFileOperations _txtFileOperations;
+        private Mock<IFileOperations> _mock;
         [SetUp]
         public void SetUp()
         {
-          _fileOperations = new TextFileOperations();
+            _txtFileOperations = new TextFileOperations();
+            _mock = new Mock<IFileOperations>();
         }
 
         [Test]
         public void ReadFromTxtFile_FileIsEmptyOrNull_ThrowsArgumentException()
         {
             // Arrange
-            var path = _fileOperations.GetFilepath("empty_mock_data.txt"); 
-     
+            _mock.Setup(x => x.Read()).Throws(new ArgumentException());
+
+            _txtFileOperations.GetFilepath("empty_mock_data.txt");
+
             //Act
-            ArgumentException ex = Assert.Throws<ArgumentException>(() => _fileOperations.Read(path));
+            ArgumentException ex = Assert.Throws<ArgumentException>(() => _txtFileOperations.Read());
 
             //Assert
             Assert.AreEqual("File is Null or Empty", ex.Message);
@@ -36,26 +40,24 @@ namespace Labb1BCleanCodeTest
         [Test]
         public void GetFilePath_GivenFileNotExist_ThrowFileNotFoundException()
         {
-            string testfilename = "error";
+            _mock.Setup(x => x.GetFilepath("error")).Throws(new FileNotFoundException());
 
-            Assert.Throws<FileNotFoundException>(() => _fileOperations.GetFilepath(testfilename));
+            Assert.Throws<FileNotFoundException>(() => _txtFileOperations.GetFilepath("error"));
         }
         [Test]
         public void GetFilepath_GivenFileIsNotOfTypetxt_ThrowFileArgumentException()
         {
-            Assert.Throws<FileNotFoundException>(() => _fileOperations.GetFilepath("testotherfiletype"));
+            Assert.Throws<FileNotFoundException>(() => _txtFileOperations.GetFilepath("testotherfiletype"));
         }
 
         [Test]
         public void ReadFromtxtFile_StringReturnedIsOneline_ReturnsTrue()
         {
             // arrange
-
-            string filepath = _fileOperations.GetFilepath("indata.txt");
+            _txtFileOperations.GetFilepath("indata.txt");
+            string texttotest = _txtFileOperations.Read();
 
             //act
-            string texttotest = _fileOperations.Read(filepath);
-
             bool result = !texttotest.Contains(Environment.NewLine);
 
             //assert

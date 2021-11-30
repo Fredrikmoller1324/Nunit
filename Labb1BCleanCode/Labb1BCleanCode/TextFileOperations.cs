@@ -9,11 +9,13 @@ namespace Labb1BCleanCode
 {
     public class TextFileOperations : IFileOperations
     {
+        private string filePath;
+        
         /// <summary>
-        ///     Returns The path of file
+        ///     Sets the path of the file
         /// </summary>
-        /// <param name="fileName">Name of the file</param>
-        public string GetFilepath(string fileName)
+        /// <param name="fileName"> name of file</param>
+        public void GetFilepath(string fileName)
         {
             var path = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, $"{fileName}");
 
@@ -21,16 +23,16 @@ namespace Labb1BCleanCode
 
             if (Path.GetExtension(path) != ".txt") throw new ArgumentException("File has to be of type txt");
 
-            return path;
+            filePath = path;
         }
 
         /// <summary>
         ///     Returns data from txt file as a oneline string
         /// </summary>
         /// <param name="filepath"></param>
-        public string Read(string filepath)
+        public string Read()
         {
-            string textAsString = File.ReadAllText(filepath);
+            string textAsString = File.ReadAllText(filePath);
 
             if (string.IsNullOrEmpty(textAsString)) throw new ArgumentException("File is Null or Empty");
             

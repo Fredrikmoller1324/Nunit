@@ -7,13 +7,11 @@ using System.Threading.Tasks;
 
 namespace Labb1BCleanCode
 {
-    public static class StringOperations
+    public class StringOperations
     {
-        public static string ReverseString(this string stringToReverse)
+        public string ReverseString(IFileOperations stringToReverse)
         {
-            var reversedWords = string.Join(" ", stringToReverse.Split(' ').Select(x => new String(x.Reverse().ToArray())).ToArray());
-
-            return reversedWords;
+           return string.Join(" ", stringToReverse.Read().Split(' ').Select(x => new String(x.Reverse().ToArray())).ToArray());
         }
     }
 }
