@@ -5,7 +5,12 @@
       "ProjectGuid": "03c12e95-32f3-449d-b5ab-4d2fe6f0579f",
       "DisplayName": "Labb1BCleanCode",
       "ColorIndex": 0
+    },
+    "d17ecdde-5459-4e0d-b397-b84c45fe3eee": {
+      "ProjectGuid": "d17ecdde-5459-4e0d-b397-b84c45fe3eee",
+      "DisplayName": "Labb1BCleanCodeTest",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
