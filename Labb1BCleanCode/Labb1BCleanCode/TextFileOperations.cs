@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Labb1BCleanCode
 {
-    public class FileOperations
+    public class TextFileOperations : IFileOperations
     {
         /// <summary>
         ///     Returns The path of file
         /// </summary>
         /// <param name="fileName">Name of the file</param>
-        public string GetFilePath(string fileName)
+        public string GetFilepath(string fileName)
         {
             var path = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, $"{fileName}");
 
@@ -28,11 +28,11 @@ namespace Labb1BCleanCode
         ///     Returns data from txt file as a oneline string
         /// </summary>
         /// <param name="filepath"></param>
-        public string ReadFromTxtFile(string filepath)
+        public string Read(string filepath)
         {
             string textAsString = File.ReadAllText(filepath);
 
-            if (string.IsNullOrEmpty(textAsString)) new ArgumentException("File is Null or Empty");
+            if (string.IsNullOrEmpty(textAsString)) throw new ArgumentException("File is Null or Empty");
             
             string StringAsOneliner = textAsString.Replace(Environment.NewLine, " ");
 

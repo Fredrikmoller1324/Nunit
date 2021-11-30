@@ -6,11 +6,11 @@ namespace Labb1BCleanCode
     {
         static void Main(string[] args)
         {
-            FileOperations textReader = new FileOperations();
+            TextFileOperations textReader = new TextFileOperations();
 
-            string filepath = textReader.GetFilePath("indata.txt");
+            string filepath = textReader.GetFilepath("empty_mock_data.txt");
 
-            var textFromfile = textReader.ReadFromTxtFile(filepath);
+            var textFromfile = textReader.Read(filepath);
 
             Console.WriteLine(textFromfile);
 

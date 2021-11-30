@@ -21,12 +21,15 @@ C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\bin\Debug\
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\bin\Debug\net5.0\Labb1BCleanCode.dll
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\bin\Debug\net5.0\ref\Labb1BCleanCode.dll
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\bin\Debug\net5.0\Labb1BCleanCode.pdb
-C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.csproj.AssemblyReference.cache
+C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\bin\Debug\net5.0\Moq.dll
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.AssemblyInfoInputs.cache
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.AssemblyInfo.cs
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.csproj.CoreCompileInputs.cache
+C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.csproj.CopyComplete
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.dll
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\ref\Labb1BCleanCode.dll
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.pdb
 C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.genruntimeconfig.cache
+C:\Users\fredr\source\repos\CleanCode\Labb1BCleanCode\Labb1BCleanCode\obj\Debug\net5.0\Labb1BCleanCode.csproj.AssemblyReference.cache
