@@ -1,0 +1,15 @@
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\bin\Debug\net6.0\ITHS-CC-Labb2.exe
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\bin\Debug\net6.0\ITHS-CC-Labb2.deps.json
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\bin\Debug\net6.0\ITHS-CC-Labb2.runtimeconfig.json
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\bin\Debug\net6.0\ITHS-CC-Labb2.dll
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\bin\Debug\net6.0\ref\ITHS-CC-Labb2.dll
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\bin\Debug\net6.0\ITHS-CC-Labb2.pdb
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ITHS-CC-Labb2.csproj.AssemblyReference.cache
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ITHS-CC-Labb2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ITHS-CC-Labb2.AssemblyInfoInputs.cache
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ITHS-CC-Labb2.AssemblyInfo.cs
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ITHS-CC-Labb2.csproj.CoreCompileInputs.cache
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ITHS-CC-Labb2.dll
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ref\ITHS-CC-Labb2.dll
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ITHS-CC-Labb2.pdb
+C:\Users\fredr\source\repos\CleanCode\ITHS-CC-Labb2\ITHS-CC-Labb2\obj\Debug\net6.0\ITHS-CC-Labb2.genruntimeconfig.cache

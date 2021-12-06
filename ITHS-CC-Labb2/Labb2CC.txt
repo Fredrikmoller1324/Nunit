@@ -1,0 +1,21 @@
+bytte namn från TotalPrce till TotalPrice
+bytte namn från bool "s" till isOrderSuccessfull för att göra det mer lättförstårligt.
+
+flyttar ut log messages till ett interface (ILogMessages) för att kunna återanvända "succes"/"error" messages oberoende av om det handlar om order eller annat object. Enligt ISP
+Skapar class av namn OrderLogMessages som hanterar logs för ordrar och implementerar interfacet "ILogMessages". Enligt SRP-principle.
+
+Skapa ett interface "IEmailHandler" som skall hantera allt gällande emails. Enligt ISP.
+class EmailHandlerOrders implementerar IEmailhandler interfacet och definerar en metod för emailnotification av ordrar. Enligt SRP-principle.
+
+Skapa class "OrderFactory" som skapar en ny order med statisk metod "CreateOrder" enligt SRP-principle.
+
+Flyttar ut 3 private funktioner till ett interface "IOrderProcessHandler" och gjorde dem public vilket underlättar för eventuell Unittesting. Enligt ISP.
+Klassen OrderProcessHandler implementerar interfacet "IOrderProcessHandler"
+
+skapat en funktion OrderIsSuccesfulOperations() som hanterar log-meddelanden samt emailnotifications som skall anropas om en order är sucessfully processed enligt DRY-principen.
+
+La till en constructor i Order-entity så man ej kan skapa en ny order utan att assigna alla relevanta properties.
+s
+Skapa map Data som underkatalog Entities som i nuvarande skick enbart innehåller Order samt underkatalog Repositories som innehåller all interfacerepos samt repon som implementerar dem.
+
+ 
