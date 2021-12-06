@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ITHS_CC_Labb2.Data.Entities;
+using ITHS_CC_Labb2.Data.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +10,9 @@ namespace ITHS_CC_Labb2
 {
     public class EmailHandlerOrderRepository : IEmailHandlerRepository
     {
-        private readonly Order _order;
+        private readonly IOrderModel _order;
 
-        public EmailHandlerOrderRepository(Order order)
+        public EmailHandlerOrderRepository(IOrderModel order)
         {
             _order = order;
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ITHS_CC_Labb2.Data.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,14 +11,25 @@ namespace ITHS_CC_Labb2
     {
         public static void RunOrder()
         {
-            var orderToHandle = OrderFactory.CreateOrder();
+            var random = new Random();
+            List<IOrderModel> orders = new List<IOrderModel>()
+            {
+                OrderFactory.CreateLowPriorityOrder(),
+                OrderFactory.CreateHighPriorityOrder(),
+                OrderFactory.CreateUrgentPriorityOrder()
+            };
+
+            int index = random.Next(orders.Count);
+
+            var orderToHandle = orders[index];
 
             OrderService orderService = new OrderService(
-                new OrderProviderRepository(orderToHandle,
-                new EmailHandlerOrderRepository(orderToHandle),
-                new OrderLogMessagesRepository(orderToHandle.Id)));
+                orderToHandle,
+                new OrderLogMessagesRepository(orderToHandle),
+                new EmailHandlerOrderRepository(orderToHandle)
+                );
 
-            orderService.ProcessOrder();
+            orderService.Process();
         }
     }
 }
